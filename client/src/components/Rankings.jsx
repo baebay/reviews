@@ -6,10 +6,10 @@ import ThreeCharts from './images/threeCharts.png'
 
 
 const Rankings = () => (
-    <div className="container">
-        <img id="total" src={totalScore}></img>
-        <img id="starFill" src={StarFill}></img>
-        <img id="threePie" src= {ThreeCharts}></img>
+    <div className="containerR">
+        <img id="totalR" src={totalScore}></img>
+        <img id="starFillR" src={StarFill}></img>
+        <img id="threePieR" src= {ThreeCharts}></img>
     </div>
   );
 
